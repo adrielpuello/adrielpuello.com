@@ -67,7 +67,7 @@ export default function Home() {
               <a href='https://www.youtube.com/channel/UCaJ5lvgC3PsRyiORErSe2XQ'><AiFillYoutube /></a>
             </div>
             <div className="mx-auto bg-gradient-to-b from-red-500 rounded-full w-80 h-80 relative overflow-hidden mt-20 md:h-96 md:w-96">
-              <Image src={profilepic} layout="fill" objectFit="cover" />
+              <Image src={profilepic} alt='' layout="fill" objectFit="cover" />
             </div>
           </div>
         </section>
